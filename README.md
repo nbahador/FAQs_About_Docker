@@ -145,7 +145,7 @@
 
 ## What are layers in Docker images?
 
-> **Docker images are built step by step, with each step adding a layer. Here's a breakdown of how layers work:**
+> **Docker images are built step by step, with each step adding a layer:**
 
 > - **Base Image**: The starting point of a Docker image, typically containing a minimal operating system or application stack (e.g., Python, Node.js).
 > - **Layers**: Each command in the Dockerfile, such as `FROM`, `RUN`, or `COPY`, adds a new layer. A layer represents a set of changes to the image, such as installing software, modifying files, or configuring settings.
