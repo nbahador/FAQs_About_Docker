@@ -22,6 +22,7 @@
 | 7 | [What are Docker Objects?](#what-are-docker-objects) |
 | 8 | [How does Docker handle image retrieval and container creation?](#how-does-docker-handle-image-retrieval-and-container-creation) |
 | 9 | [How to use Docker to run a container with DuckDB inside it?](#how-to-use-docker-to-run-a-container-with-duckdb-inside-it) |
+| 10 | [What are layers in Docker images?](#what-are-layers-in-docker-images) |
 
 
 
@@ -141,6 +142,19 @@
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
 ---
+
+## What are layers in Docker images?
+
+> **Docker images are built step by step, with each step adding a layer. Here's a breakdown of how layers work:**
+
+> - **Base Image**: The starting point of a Docker image, typically containing a minimal operating system or application stack (e.g., Python, Node.js).
+> - **Layers**: Each command in the Dockerfile, such as `FROM`, `RUN`, or `COPY`, adds a new layer. A layer represents a set of changes to the image, such as installing software, modifying files, or configuring settings.
+> - **Stacked Layers**: Layers are stacked on top of one another, with each new layer building upon the previous ones, eventually creating the final image.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
+---
+
 
 
 
