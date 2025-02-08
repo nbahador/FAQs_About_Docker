@@ -15,6 +15,7 @@
 | --- | --------- |
 | 1 | [How do Docker, images, containers, and Dockerfiles interact?](#how-do-docker-images-containers-and-dockerfiles-interact) |
 | 2 | [What does standardized environments mean?](#what-does-standardized-environments-mean) |
+| 3 | [Can you give an example of Continuous Integration (CI)?](#can-you-give-an-example-of-continuous-integration-ci) |
 
 
 --- 
@@ -31,8 +32,6 @@
 
 ---
 
---- 
-
 ## What does standardized environments mean?
 
 > **Standardized environments simply mean creating a consistent setup for running applications.** 
@@ -41,5 +40,16 @@
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
+--- 
+
+## Can you give an example of Continuous Integration (CI)?
+
+> **Continuous Integration (CI) involves automatically building and testing code every time changes are pushed to a shared code repository.**
+> 
+> Developers work on different features and push their changes to a shared code repository (like GitHub). Every time changes are pushed, an automated system (like Jenkins, GitLab, or GitHub Actions) automatically builds and tests the code to catch bugs early.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
 ---
+
 
