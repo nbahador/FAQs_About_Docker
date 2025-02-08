@@ -107,7 +107,7 @@
 
 ---
 
-## How to Use Docker to Run a Container with DuckDB
+## How to use Docker to run a container with DuckDB inside it?
 
 > **To use Docker to run a container with DuckDB inside it, run the following command:**
 > docker run -it datacatering/duckdb:v1.2.0
