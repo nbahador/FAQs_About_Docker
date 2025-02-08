@@ -16,6 +16,8 @@
 | 1 | [How do Docker, images, containers, and Dockerfiles interact?](#how-do-docker-images-containers-and-dockerfiles-interact) |
 | 2 | [What does standardized environments mean?](#what-does-standardized-environments-mean) |
 | 3 | [Can you give an example of Continuous Integration (CI)?](#can-you-give-an-example-of-continuous-integration-ci) |
+| 4 | [What is Docker client?](#what-is-docker-client) |
+
 
 
 --- 
@@ -50,6 +52,15 @@
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
+--- 
+
+## What is Docker client?
+
+> **Docker client is the user interface.** It's what you interact with directly. In Docker, it's the tool you type commands into, like `docker run` or `docker build`.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
 ---
+
 
 
