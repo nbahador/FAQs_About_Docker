@@ -135,10 +135,13 @@
 > - Docker pulls the DuckDB image if it is not already downloaded.
 > - The DuckDB shell opens, showing the prompt `D`.
 > - You can now run SQL queries.
+> 
+> ![DuckDB Image](img/DuckDB_image.jpg)
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
 ---
+
 
 
 
