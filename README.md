@@ -14,6 +14,8 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [How do Docker, images, containers, and Dockerfiles interact?](#how-do-docker-images-containers-and-dockerfiles-interact) |
+| 2 | [What does standardized environments mean?](#what-does-standardized-environments-mean) |
+
 
 --- 
 
@@ -28,3 +30,16 @@
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
 ---
+
+--- 
+
+## What does standardized environments mean?
+
+> **Standardized environments simply mean creating a consistent setup for running applications.** 
+> 
+> If you develop an app on your computer, you want it to work the same way when it's run on someone else's computer. By using standardized environments, you ensure that everything is the same everywhere.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
+---
+
