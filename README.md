@@ -21,6 +21,7 @@
 | 6 | [What are Docker Registries?](#what-are-docker-registries) |
 | 7 | [What are Docker Objects?](#what-are-docker-objects) |
 | 8 | [How does Docker handle image retrieval and container creation?](#how-does-docker-handle-image-retrieval-and-container-creation) |
+| 9 | [How to use Docker to run a container with DuckDB inside it?](#how-to-use-docker-to-run-a-container-with-duckdb-inside-it) |
 
 
 
@@ -105,6 +106,38 @@
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
 ---
+
+## How to Use Docker to Run a Container with DuckDB
+
+> **To use Docker to run a container with DuckDB inside it, run the following command:**
+> docker run -it datacatering/duckdb:v1.2.0
+>- **datacatering/duckdb:v1.2.0**: This is the Docker image to use.
+>    - **datacatering/duckdb**: The name of the Docker image.
+>   - **v1.2.0**: The version of DuckDB (in this case, version 1.2.0).
+
+** What Happens When You Run the Command:
+>1. Docker looks for the image **datacatering/duckdb:v1.2.0** on your local machine.
+>2. If the image is not present, Docker will download it from Docker Hub (a cloud-based repository).
+>3. Once downloaded, Docker creates and starts a container from the image.
+>4. An interactive terminal opens with DuckDB running.
+
+** Inside the Terminal:
+>- You can run SQL commands (e.g., `CREATE TABLE`, `SELECT * FROM`).
+>- By default, DuckDB is an in-memory database.
+
+** When You're Done:
+>- Exit the DuckDB instance by typing `.exit`.
+
+** Example:
+>- Docker pulls the DuckDB image if it is not already downloaded.
+>- The DuckDB shell opens, showing the prompt `D`.
+>- You can now run SQL queries.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
+---
+
+
 
 
 
