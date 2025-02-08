@@ -17,6 +17,8 @@
 | 2 | [What does standardized environments mean?](#what-does-standardized-environments-mean) |
 | 3 | [Can you give an example of Continuous Integration (CI)?](#can-you-give-an-example-of-continuous-integration-ci) |
 | 4 | [What is Docker client?](#what-is-docker-client) |
+| 5 | [What is Docker Daemon?](#what-is-docker-daemon) |
+
 
 
 
@@ -60,7 +62,17 @@
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
+--- 
+
+## What is Docker Daemon?
+
+> **Docker Daemon listens for requests from the client and carries them out in the background.** 
+> So, the client is you giving instructions, and the daemon is the one that follows those instructions and does the work.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
 ---
+
 
 
 
