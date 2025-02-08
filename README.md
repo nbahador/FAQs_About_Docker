@@ -18,6 +18,8 @@
 | 3 | [Can you give an example of Continuous Integration (CI)?](#can-you-give-an-example-of-continuous-integration-ci) |
 | 4 | [What is Docker client?](#what-is-docker-client) |
 | 5 | [What is Docker Daemon?](#what-is-docker-daemon) |
+| 6 | [What are Docker Registries?](#what-are-docker-registries) |
+
 
 
 
@@ -71,7 +73,16 @@
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
+--- 
+
+## What are Docker Registries?
+
+> **Docker Registries are places where Docker images are stored.** For example, Docker Hub is a popular registry. You can pull (download) or push (upload) images here.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
 ---
+
 
 
 
