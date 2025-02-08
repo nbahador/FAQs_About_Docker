@@ -17,7 +17,7 @@
 
 --- 
 
-## Docker Overview
+## How do Docker, images, containers, and Dockerfiles interact?
 
 > **Docker is a tool that helps in creating, deploying, and running applications using containers. Here's a breakdown of the key concepts:**
 
