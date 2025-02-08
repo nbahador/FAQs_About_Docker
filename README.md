@@ -1,5 +1,5 @@
 <h2 style="font-size: 24px; text-align: center; font-weight: bold; color: #2C3E50; border-bottom: 2px solid #2980B9; padding-bottom: 10px; margin-bottom: 20px;">
-  FAQs for Docker
+  FAQs about Docker
 </h2>
 
 <hr style="border: none; border-top: 1px solid #2980B9; margin: 10px 0;">
