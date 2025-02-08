@@ -19,6 +19,8 @@
 | 4 | [What is Docker client?](#what-is-docker-client) |
 | 5 | [What is Docker Daemon?](#what-is-docker-daemon) |
 | 6 | [What are Docker Registries?](#what-are-docker-registries) |
+| 7 | [What are Docker Objects?](#what-are-docker-objects) |
+
 
 
 
@@ -81,7 +83,19 @@
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
+--- 
+
+## What are Docker Objects?
+
+> **Docker Objects are things you work with in Docker, like:**
+> 
+> - **Images**: Templates to create containers.
+> - **Containers**: Running instances of an image.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
 ---
+
 
 
 
