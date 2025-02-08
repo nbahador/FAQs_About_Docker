@@ -20,6 +20,8 @@
 | 5 | [What is Docker Daemon?](#what-is-docker-daemon) |
 | 6 | [What are Docker Registries?](#what-are-docker-registries) |
 | 7 | [What are Docker Objects?](#what-are-docker-objects) |
+| 8 | [How does Docker handle image retrieval and container creation?](#how-does-docker-handle-image-retrieval-and-container-creation) |
+
 
 
 
@@ -94,7 +96,16 @@
 
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
+--- 
+
+## How does Docker handle image retrieval and container creation?
+
+> **First, Docker looks for the image.** If Docker couldn't find the image on your computer, it downloads it from Docker's registry. Once all layers are downloaded, Docker then creates and runs the container in the background.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
 ---
+
 
 
 
