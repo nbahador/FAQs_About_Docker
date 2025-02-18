@@ -23,6 +23,8 @@
 | 8 | [How does Docker handle image retrieval and container creation?](#how-does-docker-handle-image-retrieval-and-container-creation) |
 | 9 | [How to use Docker to run a container with DuckDB inside it?](#how-to-use-docker-to-run-a-container-with-duckdb-inside-it) |
 | 10 | [What are layers in Docker images?](#what-are-layers-in-docker-images) |
+| 11 | [How can you set up a Docker container for Scilpy, a tool for diffusion MRI?](#how-can-you-set-up-a-docker-container-for-scilpy-a-tool-for-diffusion-mri) |
+
 
 
 
@@ -154,6 +156,18 @@
 **[ Back to the question in the Table ⬆ ](#table-of-contents)**
 
 ---
+
+## How can you set up a Docker container for Scilpy, a tool for diffusion MRI?
+
+> **You can set up a Docker container for Scilpy by using the following line in your Dockerfile:**
+
+> - **FROM scilus/scilus:1.6.0**: This line uses the scilus/scilus image with tag 1.6.0 as the base, providing all the necessary tools and dependencies for working with diffusion MRI.
+
+**[ Back to the question in the Table ⬆ ](#table-of-contents)**
+
+---
+
+
 
 
 
